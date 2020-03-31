@@ -11,7 +11,7 @@ time = samples*timeStep; %sec
 pulseFrequency = 5; %Hz
 squareWave = square(time*pulseFrequency*2*pi);
 
-%%Plot Sqaure Wave
+%%Plot Square Wave
 figure(1), plot(time,squareWave, 'b')
 title([num2str(pulseFrequency) 'Hz Square Pulse'])
 
